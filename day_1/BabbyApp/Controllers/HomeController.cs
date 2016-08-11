@@ -20,6 +20,13 @@ namespace BabbyApp.Controllers
             return View();
         }
 
+        public IActionResult Projects()
+        {
+            ViewData["Message"] = "Your Projects description page.";
+
+            return View();
+        }
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
